@@ -28,8 +28,7 @@ handler404 = 'url_migration.views.page_not_found'
 
   * Url regexp mappings: regex rules that will generate url mapping for every regex match.
 
-`remove_expired_redirects` management command may be used to remove expired url mappings -
- if the mapping isn't used for given expiry time it will be removed (so you can see which old urls are still used).
+The `remove_expired_redirects` management command may be used to remove expired url mappings - if the mapping isn't used for given expiry time it will be removed (so you can see which old urls are still used).
 
 Every mapping hit is being logged to `LastUsageLog` model.
 
