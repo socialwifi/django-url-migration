@@ -7,7 +7,7 @@ def read(name):
 
 setup(
     name='django-url-migration',
-    version='0.1.1',
+    version='0.2.0',
     description='Advanced url migration application',
     long_description=read('README.rst'),
     author='Social WiFi',
@@ -25,6 +25,9 @@ setup(
         "Programming Language :: Python :: 3.4",
         "Programming Language :: Python :: 3.5",
         "Programming Language :: Python :: 3.6",
+        "Programming Language :: Python :: 3.7",
+        "Programming Language :: Python :: 3.8",
+        "Programming Language :: Python :: 3.9",
         "License :: OSI Approved :: BSD License",
         "Development Status :: 4 - Beta",
         "Operating System :: OS Independent",

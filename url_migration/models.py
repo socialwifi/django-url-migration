@@ -9,7 +9,7 @@ class LastUsageLog(models.Model):
     referer = models.TextField()
     user_agent = models.TextField()
     ip = models.GenericIPAddressField()
-    user = models.ForeignKey('auth.User', null=True)
+    user = models.ForeignKey('auth.User', null=True, on_delete=models.SET_NULL)
 
     def __str__(self):
         return str(self.used_date)
