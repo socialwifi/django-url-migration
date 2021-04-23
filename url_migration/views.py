@@ -12,7 +12,7 @@ from . import models
 logger = logging.getLogger(__name__)
 
 
-def page_not_found(request, template_name='404.html'):
+def page_not_found(request, exception, template_name='404.html'):
     return next(get_response(request, template_name, UrlResolver))
 
 

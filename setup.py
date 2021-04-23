@@ -7,7 +7,7 @@ def read(name):
 
 setup(
     name='django-url-migration',
-    version='0.2.0',
+    version='0.2.1',
     description='Advanced url migration application',
     long_description=read('README.rst'),
     author='Social WiFi',
