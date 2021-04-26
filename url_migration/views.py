@@ -102,7 +102,7 @@ class UrlResolver:
         }
 
     def _get_user(self):
-        if self.request.user.is_authenticated():
+        if self.request.user.is_authenticated:
             return self.request.user
         else:
             return None
